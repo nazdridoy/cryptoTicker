@@ -1,0 +1,41 @@
+# Temporary development directory
+TEMP-Dev/
+
+# Log files
+*.log
+
+# Cache files
+*.cache
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files
+test_*
+*_test.py
+*_test.sh 

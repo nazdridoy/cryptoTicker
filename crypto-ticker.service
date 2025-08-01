@@ -1,0 +1,22 @@
+[Unit]
+Description=Crypto Ticker Update Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+# Note: Users need to update this path to match their repository location
+WorkingDirectory=%h/NAZ/config/cryptoTicker
+# Bash version (commented out):
+# ExecStart=%h/NAZ/config/cryptoTicker/cryptoConky.sh
+# Python version (enhanced with better error handling and formatting):
+ExecStart=/usr/bin/python3 %h/NAZ/config/cryptoTicker/pyCryptoTicker.py
+Restart=always
+RestartSec=25
+StandardOutput=journal
+StandardError=journal
+# Environment variables
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
