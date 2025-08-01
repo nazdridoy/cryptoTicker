@@ -2,6 +2,9 @@
 
 A real-time cryptocurrency price ticker that displays live crypto prices using Conky on Linux systems. This project provides both bash and Python implementations with enhanced error handling, caching, and smart price formatting.
 
+<img width="1258" height="25" alt="2025-08-01_15-45-55" src="https://github.com/user-attachments/assets/dda7765c-4c7a-4fdd-a769-52cec503ece0" />
+
+
 ## 🚀 Features
 
 - **Real-time Updates**: Fetches live prices from Binance API
